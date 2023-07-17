@@ -205,6 +205,12 @@ section .title::after{
     color: #b69051;
     background: none;
 }
+#ima{
+    position: relative;
+    right: 450px;
+   top: 120px;
+}
+
 /* about section styling */
 .about .title::after{
     content: "who i am";
@@ -658,5 +664,9 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    #ima{
+        display: grid;
+        width: 20px;
     }
 }
